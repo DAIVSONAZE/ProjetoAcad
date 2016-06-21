@@ -1,0 +1,95 @@
+
+<!doctype html>
+
+
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<title> Alterar dados do pessoais (Aluno) </title>
+	<link rel="stylesheet" type="text/css" href="academico.css">
+	
+
+	<style>
+	
+
+	
+	
+	</style>
+
+</head>
+
+	<header>
+		
+		
+	
+	</header>
+
+<body>
+
+<h1 class="titulo">Cadastramento do Aluno</h1>
+
+
+	<form  method = "post"  id="formas" name="formas">
+		<fieldset id="nomeusuario" ><legend class="titulofont"><b>Cadastramanto Aluno</b></legend>
+			<label for="nomeAlu">Nome</label>
+			<input type="text" id="nomeAlu" name="nomeAlu" size="30" maxlength="40" placeholder="Nome do Aluno"><br>
+			
+				<label id="Anasci">*Data de Nascimento</label>
+		<input type="data" id= "Anasci" name="Anasci" class="DistMarginTop" placeholder="11/22/3333" maxlength="10" onKeyPress="MascaraData(formas.Anasci)"
+			onBlur= "ValidaData(formas.Anasci);"><br>
+				
+		
+		
+		<fieldset id="endusuario"><legend><b>Endereço</b></legend>
+			<label for="Pende">Logradouro</label>
+			<input type="text" id="Pende" name="Pende" size="20" maxlength="30" placeholder=" Rua, Av., Lograd."><br>
+				
+				<label for="Pnumer"  >Número</label>
+				<input type="number" class="DistMarginTop" id="Pnumer" name="Pnumer" min="0" max="9999" placeholder="Nº" ><br>
+				
+				<label for="Ptel"  >*Telefone</label>
+				<input type="text" class="DistMarginTop" id="Ptel" name="Ptel" min="0" max="15" placeholder="(zz) xxxx-yyyy" onKeyPress="MascaraTelefone(formas.Ptel)" onBlur="ValidaTelefone(formas.Ptel);"><br>
+				
+				
+					
+					<label for="Acidade"  >Cidade</label>
+				<input type="text" id="Acidade" name="Acidade" class="DistMarginTop" size="20" maxlength="40" placeholder="Sua Cidade" list="cidade">
+					
+					<datalist id="cidade">
+						<option value="Jaboatão"></option>
+						<option value="Recife"></option>
+						<option value="Olinda"></option>
+					
+					
+					</datalist>
+				
+		</fieldset>
+		
+		</fieldset>
+		
+		
+		
+		<fieldset id="sexusuario"><legend><b>Sexo</b></legend>
+		
+		<select id="Pmasc">
+			<option value="f" >Feminino</option>
+			<option value="m" >Masculino</option>
+		
+		</select>
+		
+		</fieldset>
+		
+		
+		<button onclick="return ValidaFormAluno()" id="salvar"><b>Salvar</b></button>
+		
+	
+	</form>
+	
+	<script type="text/javascript" src="validarAluno.js"></script>
+	
+	</body>
+</html>
+		
+
+	

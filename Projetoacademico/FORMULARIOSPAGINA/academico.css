@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+
+
+label{
+
+
+color: #00BFFF;
+
+
+}
+
+
+
+.titulo{
+	
+	font-family: 'Open Sans Condensed';
+	text-align: center;
+	margin-top: 100px;
+	background-color: #F8F8FF;
+	width: 500px;
+	margin-left: 470px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+	
+	
+}
+
+body{
+
+	
+	background-image: url(fundo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	
+}
+
+#formas{
+	
+	margin-top: 300px;
+	margin: auto;
+	width: 400px;
+	
+	
+}
+
+.BtMuda{
+	
+	border-radius: 4px;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+	font-weight: bold;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 0 5px #3775b3;
+	
+}
+
+
+
+	#nomeusuario{
+		width: 400px;
+	}
+	
+	
+	#cpfusuario{
+		width: 400px;
+		margin-top: 20px;
+		
+		}
+		
+		#endusuario{
+			
+			width: 400px;
+		margin-top: 20px;
+		
+		}
+		
+		#sexusuario{
+			width: 400px;
+		}
+		
+		#salvar{
+			margin-top:20px;
+			border-radius: 4px;
+			
+			box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), 0 0 5px #3775b3;
+		}
+		
+		
+		
+		#Pnasci{
+		margin-top: 10px;
+		}
+		
+		.DistMarginTop{
+			margin-top: 10px;
+		}
+		
+		

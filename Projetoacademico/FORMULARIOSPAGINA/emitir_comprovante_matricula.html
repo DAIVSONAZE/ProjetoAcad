@@ -1,0 +1,61 @@
+
+<!doctype html>
+
+
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<title> Emitir Comprovante Matrícula </title>
+	<link rel="stylesheet" type="text/css" href="academico.css">
+	
+	<style>
+
+	
+	</style>
+
+	
+</head>
+
+	<header>
+		
+		
+	
+	</header>
+
+<body>
+
+	<h1 class="titulo"><b>Comprovante de Matrícula</b></h1>
+	
+	<form id="formas" name="formas">
+
+	<fieldset id="Emissaocompro"><legend><b>Emisão de comprovante de Matrícula</b></legend>
+	
+	<label for="Selaluno">Aluno:</label>
+		<select id="Selaluno"> 
+			<option value="ch">Carlos Henrique</option>
+			<option value="ev">Eduardo Vasconcelos</option>
+			<option value="bc">Bruna Carla</option><br>
+		
+		</select><br><br>
+
+			<label for="semestcurso">Semestre:</label>
+			<input type="text" id="semestcurso" name="semestcurso" size="11" maxlength="8" placeholder="Semestre">	<br><br>
+
+				<label for="Tipoemite">Tipo de emissão:</label><br>
+				<input type="radio" id="Tipoemite" name="emitecomp">Gera PDF</input>
+				<input type="radio" id="Tipoemite" name="emitecomp">Enviar por Email</input><br><br>
+				
+			
+			<input class = "BtMuda" onclick="return validaFormSemestre()" type="submit" value="Emitir Comprovante"></input>
+	</fieldset>
+
+	
+	
+	</form>
+	
+	<script style="text/javascript" src="validarAluno.js"></script>
+	
+
+</body>
+</html>

@@ -1,0 +1,67 @@
+
+<!doctype html>
+
+
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<title> Cadastrar projeto pesquisa </title>
+	<link rel="stylesheet" type="text/css" href="academico.css">
+	
+	<style>
+	
+	
+	</style>
+
+	
+</head>
+
+	<header>
+		
+		
+	
+	</header>
+
+<body>
+	
+		<h1 class="titulo">Cadastrar Projeto</h1>
+
+	
+	<form  method=" post"  id="formas" name="formas">
+
+	<fieldset id = "nomeusuario"><legend><b>Cadastrar projeto de pesquisa</b></legend>
+	
+	<label for="Projprofessor">Professor:</label>
+		<select id="Projprofessor"> 
+			<option value="Pmn">Profº Manuel Nobrega</option>
+			<option value="Pvm">Profº Vinicius de Moraes</option>
+			<option value="Pmp">Profª Mar de Paula</option>	
+		
+		</select><br><br>
+
+						
+						<label for="Tituloprojeto">Título do projeto:</label>
+						<input type="text" id="Tituloprojeto" name="Tituloprojeto" size="54" maxlength="50" placeholder="Texto"><br>
+						
+						<p>Descrição:</p>
+						<textarea name="mensagem" id="mensagem" cols="60" rows="5" maxlength="250" placeholder="Descrição do projeto"></textarea><br>
+						<label for  = "Ativo ">Ativo</label>
+						<input type = "radio" name = "ativo">
+						<label for="inativo">Inativo</label>
+						<input type="radio" name="ativo">
+			
+			<button onclick="return validaFormProjeto()" id="salvar"><b>Salvar</b></button>
+	</fieldset>
+
+	
+	
+	</form>
+	
+	<script type="text/javascript" src="validarProfessor.js"></script>
+	
+
+		
+
+</body>
+</html>
